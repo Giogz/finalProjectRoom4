@@ -1,7 +1,18 @@
 .gradientRedColor {
     background-image: linear-gradient(to right, #800000, #A4011E, #F4042E);
+   
 }
 
 nav img{
     width: 25px;
+}
+/* .container{
+
+    background-image: linear-gradient(to right, #3a76a7, #24a6da, #419fdd);
+} */
+
+*{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+    
 }
