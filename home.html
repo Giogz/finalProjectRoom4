@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-     <link rel="stylesheet" href="style.css">
-     <!-- google font  -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-     <!-- google font  -->
-</head>
-<body class="gradientRedColor">
-<!-- begining navbar goes here -->
+        <!-- General CSS -->
+        <link rel="stylesheet" href="./styleGeneral.css" />
+        <!-- Add you css page -->
+    
+    
+        <!-- Finish the css -->
+        
+        <!-- Google Fonts -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+          rel="stylesheet"
+        />
+        <title>DARE</title>
+      </head>
+<body class="">
+  <!-- NAV BAR please not edit -->
 <nav class="navbar-expand-lg navbar navbar-dark bg-dark">
-    <div class="container-fluid h-25">
-        <a class="navbar-brand" href="#">
-            <img src="/img/darenavlogo.svg" alt="" class="navbar-brand" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-white active" aria-current="page" href="./main.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white active">Disabled</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-light" type="submit">Search</button>
-            </form>
-        </div>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/imgIndex/darenavlogo.png" alt="" class="navbar-brand" style="
+        width: 25px;
+    "/>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white active" aria-current="page" href="./home.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"> Profile </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white active" href="./Dashboard.html"> Dashboard </a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-light" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-</nav>
-
-<!-- end of navbar -->
+  </nav>
+  <!-- finish NAV BAR -->
+  <br>
+  <br>
+  <br>
+  <!-- space -->
 
     <!-- the main container start here -->
     <div class="container">
@@ -58,7 +90,7 @@
                     <h5>Followers</h5>
                     <!-- place holder -1 begin -->
                     <div class="card" aria-hidden="true">
-                        <img src="./images/followers.png" class="card-img-top" alt="...">
+                        <img src="./img/imgHome/followers.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title placeholder-glow">
                                 <span class="placeholder col-6"></span>
@@ -79,7 +111,7 @@
                     <h5>Suggested</h5>
                     <!-- placeholder 2 start here -->
                     <div class="card">
-                        <img src="./images/suggestion.jpg" class="card-img-top" alt="...">
+                        <img src="./img/imgHome/suggestion.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -94,7 +126,7 @@
                 <div class="col-12 border border-succes p-3">
                     <h5>Events</h5>
                     <div class="card" aria-hidden="true">
-                        <img src="./images/Events.png" class="card-img-top" alt="...">
+                        <img src="./img/imgHome/Events.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title placeholder-glow">
                                 <span class="placeholder col-6"></span>
@@ -118,7 +150,7 @@
     
                     <!-- placeholder 4 Begins here  -->
                     <div class="card" aria-hidden="true">
-                        <img src="./images/live-streaming.png" class="card-img-top" alt="...">
+                        <img src="./img/imgHome/live-streaming.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title placeholder-glow">
                                 <span class="placeholder col-6"></span>
@@ -141,7 +173,7 @@
                 <div class="col-12 border border-danger"><h5>Video</h5>
                 <!-- middle column placeholder start here -->
                 <div class="card" aria-hidden="true">
-                    <img src="./images/live-streaming.png" class="card-img-top" alt="...">
+                    <img src="./img/imgHome/live-streaming.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title placeholder-glow">
                             <span class="placeholder col-6"></span>
@@ -181,7 +213,7 @@
                 <div class="col-12 border border-warning">
                 <!-- user dashboard placeholder starts -->
                 <div class="card">
-                    <img src="./images/user-dashboard.png" class="card-img-top" alt="...">
+                    <img src="./img/imgHome/user-dashboard.png" class="card-img-top" alt="...">
                   
                     <div class="card-body">
                       <h5 class="card-title">User Dashboard</h5>
@@ -199,7 +231,7 @@
                     <!-- user dashboard placeholder starts -->
 
                     <div class="card">
-                        <img src="./images/winners-list.png" class="card-img-top" alt="...">
+                        <img src="./img/imgHome/Events.png" class="card-img-top" alt="...">
                       
                         <div class="card-body">
                           <h5 class="card-title">Winners List</h5>
@@ -217,5 +249,17 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+      <!-- JAVA SCRIPT BOOSTRAP -->
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
