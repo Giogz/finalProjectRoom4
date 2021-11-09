@@ -26,7 +26,7 @@
     />
     <title>DARE</title>
   </head>
-<body class="">
+<body class="gradientRedColor">
 
   <!-- NAV BAR please not edit -->
 
@@ -75,7 +75,6 @@
     </div>
   </nav>
   <!-- finish NAV BAR -->
-
   <br>
   <br>
   <br>
@@ -88,10 +87,14 @@
         </div>
     </div>
     <div class=" row photo input-group mb-3">
-        <div class="col">
 
-            <label class="input-group-text" for="photo">Upload</label>
-            <input type="file" class="form-control" id="photo">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/imgHome/photo_placeholder.png" class="card-img-top" alt="...">
+          </div>
+          <br>
+          <label class="input-group-text" for="photo">Change Photo</label>
+          <input type="file" class="form-control" id="photo">
         </div>
         <div class="col">
             <label class="firstname" for="firstname">First Name</label>
@@ -128,8 +131,9 @@
             <input type="text number" class="form-control" id="newpassword">
             <label class="confirmpassword" for="confirmpassword">Confirm Password</label>
             <input type="text number" class="form-control" id="confirmpassword">
-            <div class="row container-fluid align-items-center">
+            <div class="row">
                 <div class="col">
+                  <br>
                   <button type="submit" class="btn btn-dark">Submit Change</button>
                   <br>
                   <br>
